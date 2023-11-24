@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2</title>
+    <script src="questao2.js"></script>
+</head>
+
+<body onload="init()">
+
+    <h2>Questão 2:</h2>
+    <p>
+        O botão "Verificar" percorrerá todo o texto e retornará a quantidade de palavras e a quantidade de recorrência de cada letra. <br>
+        O texto passado como teste para a questão foi: <strong>"este e o conteudo apenas com palavras minusculas e espacos"</strong>  <br>
+        O resultado é:
+    </p>
+    <p id="textoQuestao"></p>
+
+    <br><br>
+    <label for="textoInput">Digite seu texto: (só serão contadas letras minúsculas sem acento)</label><br>
+    <textarea id="textoInput" rows="4" cols="100"></textarea><br>
+
+    <button onclick="textoUsuario();">Contar</button>
+    <p id="textoUsuario"></p>
+    <br><br>
+    <p>
+        Antonio Kerr <br>
+        Obrigado!
+    </p>
+    
+</body>
+
+</html>
